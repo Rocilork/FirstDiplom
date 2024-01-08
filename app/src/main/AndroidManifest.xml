@@ -16,6 +16,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Administrator"
+            android:exported="false" />
+        <activity
+            android:name=".Kurator"
+            android:exported="false" />
+        <activity
+            android:name=".Student"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
