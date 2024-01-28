@@ -4,21 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
 
-class Student : AppCompatActivity() {
+class Prepodavatel : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_student)
-
-        val button: Button = findViewById(R.id.buttonEnter)
-        val log: EditText = findViewById(R.id.login)
-        val pass: EditText = findViewById(R.id.password)
-
-        button.setOnClickListener {
-
-        }
+        setContentView(R.layout.activity_prepodavatel)
     }
 
     fun onBack (view: View){

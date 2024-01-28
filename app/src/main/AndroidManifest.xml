@@ -16,10 +16,16 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Administrator"
+            android:name=".CreateGroup"
             android:exported="false" />
         <activity
-            android:name=".Kurator"
+            android:name=".OpenGroup"
+            android:exported="false" />
+        <activity
+            android:name=".Prepodavatel"
+            android:exported="false" />
+        <activity
+            android:name=".Administrator"
             android:exported="false" />
         <activity
             android:name=".Student"

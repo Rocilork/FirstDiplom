@@ -47,7 +47,7 @@
             android:layout_marginHorizontal="50dp"
             android:layout_gravity="center"
             android:background="@drawable/radius"
-            android:onClick="onEnter"
+            android:onClick="onCreate"
             android:text="Создать группу"
             android:textSize="20dp"
             app:backgroundTint="@null"

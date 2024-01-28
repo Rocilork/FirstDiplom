@@ -15,4 +15,14 @@ class Administrator : AppCompatActivity() {
         val intent = Intent(this, MainActivity2::class.java)
         startActivity(intent)
     }
+
+    fun onEnter (view: View){
+        val intent = Intent(this, OpenGroup::class.java)
+        startActivity(intent)
+    }
+
+    fun onCreate(view: View){
+        val intent = Intent(this, CreateGroup::class.java)
+        startActivity(intent)
+    }
 }

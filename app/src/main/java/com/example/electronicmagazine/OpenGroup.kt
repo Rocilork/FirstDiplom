@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Kurator : AppCompatActivity() {
+class OpenGroup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kurator)
+        setContentView(R.layout.activity_open_group)
     }
 
     fun onBack (view: View){
-        val intent = Intent(this, MainActivity2::class.java)
+        val intent = Intent(this, Administrator::class.java)
         startActivity(intent)
     }
 }

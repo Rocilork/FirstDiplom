@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".Kurator">
+    tools:context=".Prepodavatel">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,16 +37,16 @@
             android:textStyle="bold"
             android:gravity="center"
             android:textColor="@color/blue"
-            android:text="Куратор"
+            android:text="Преподаватель"
             android:layout_marginBottom="40dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/rounded_edit_text"
-            android:hint="Логин"
+            android:hint="Логин (электронная почта)"
             android:layout_marginHorizontal="10dp"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:layout_marginBottom="20dp"/>
 
         <EditText

@@ -25,41 +25,35 @@
             android:textColor="@color/blue"
             android:text="Выберите, кто вы?" />
     </LinearLayout>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:gravity="center"
         android:layout_marginBottom="40dp">
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="197dp"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Студент"
+            android:layout_marginVertical="10dp"
             android:background="@drawable/radius"
-            app:backgroundTint="@null"
-            android:layout_marginHorizontal="10dp"
-            android:onClick="onStudent"/>
+            android:onClick="onStudent"
+            android:text="Студент"
+            android:textSize="20dp"
+            app:backgroundTint="@null" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Куратор"
+            android:text="Преподаватель"
             android:background="@drawable/radius"
             app:backgroundTint="@null"
-            android:layout_marginHorizontal="10dp"
-            android:onClick="onKurator"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+            android:layout_marginVertical="10dp"
+            android:onClick="onPrepod"/>
 
         <Button
             android:id="@+id/button3"
@@ -69,6 +63,7 @@
             android:text="Администратор"
             android:background="@drawable/radius"
             app:backgroundTint="@null"
+            android:layout_marginVertical="10dp"
             android:onClick="onAdministrator"/>
     </LinearLayout>
 </LinearLayout>
