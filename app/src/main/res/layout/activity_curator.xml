@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".Prepodavatel">
+    tools:context=".Curator">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:textStyle="bold"
             android:gravity="center"
             android:textColor="@color/blue"
-            android:text="Преподаватель"
+            android:text="Куратор"
             android:layout_marginBottom="40dp"/>
 
         <EditText

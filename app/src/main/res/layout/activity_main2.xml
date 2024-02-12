@@ -33,37 +33,51 @@
         android:gravity="center"
         android:layout_marginBottom="40dp">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="197dp"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="10dp"
-            android:background="@drawable/radius"
-            android:onClick="onStudent"
-            android:text="Студент"
-            android:textSize="20dp"
-            app:backgroundTint="@null" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Преподаватель"
-            android:background="@drawable/radius"
-            app:backgroundTint="@null"
-            android:layout_marginVertical="10dp"
-            android:onClick="onPrepod"/>
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="40dp">
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Студент"
+                android:background="@drawable/radius"
+                app:backgroundTint="@null"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="onStudent"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Куратор"
+                android:background="@drawable/radius"
+                app:backgroundTint="@null"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="onCurator"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Администратор"
-            android:background="@drawable/radius"
-            app:backgroundTint="@null"
-            android:layout_marginVertical="10dp"
-            android:onClick="onAdministrator"/>
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Администратор"
+                android:background="@drawable/radius"
+                app:backgroundTint="@null"
+                android:onClick="onAdministrator"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

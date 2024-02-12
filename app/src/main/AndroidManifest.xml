@@ -16,13 +16,13 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Curator"
+            android:exported="false" />
+        <activity
             android:name=".CreateGroup"
             android:exported="false" />
         <activity
             android:name=".OpenGroup"
-            android:exported="false" />
-        <activity
-            android:name=".Prepodavatel"
             android:exported="false" />
         <activity
             android:name=".Administrator"

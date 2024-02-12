@@ -16,8 +16,8 @@ class MainActivity2 : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun onPrepod (view: View){
-        val intent = Intent(this, Prepodavatel::class.java)
+    fun onCurator (view: View){
+        val intent = Intent(this, Curator::class.java)
         startActivity(intent)
     }
 

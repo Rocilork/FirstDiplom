@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Prepodavatel : AppCompatActivity() {
+class Curator : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_prepodavatel)
+        setContentView(R.layout.activity_curator)
     }
 
     fun onBack (view: View){
