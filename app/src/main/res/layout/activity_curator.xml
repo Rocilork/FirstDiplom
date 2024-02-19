@@ -41,6 +41,7 @@
             android:layout_marginBottom="40dp"/>
 
         <EditText
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/rounded_edit_text"
@@ -50,6 +51,7 @@
             android:layout_marginBottom="20dp"/>
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Пароль"
@@ -59,6 +61,7 @@
             android:layout_marginBottom="20dp"/>
 
         <EditText
+            android:id="@+id/nameGrup"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Название группы"
@@ -68,6 +71,7 @@
             android:layout_marginBottom="20dp"/>
 
         <EditText
+            android:id="@+id/namePred"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Название предмета"
@@ -77,7 +81,7 @@
             android:layout_marginBottom="20dp"/>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonEnter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
